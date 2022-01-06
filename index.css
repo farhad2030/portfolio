@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+section {
+  margin: 50px 15%;
+}
+
+button {
+  margin: 20px 0px;
+  border: none;
+}
+
+/* intro section */
+.introSection {
+  display: flex;
+}
+.introText {
+  width: 50%;
+  margin: auto;
+}
+.introName {
+  border-left: 5px solid orange;
+  padding-left: 15px;
+  margin: 20px 0px;
+}
+.orangeColorText {
+  color: orange;
+}
+.redOrangeButton {
+  color: aliceblue;
+  padding: 10px 15px;
+  background-color: orangered;
+  border-radius: 3px;
+}
+.introImage {
+  width: 50%;
+}
+.introImageContainer {
+  width: 50%;
+  margin: auto;
+}
+
+/* mission Section */
+/* card */
+.mission h1 {
+  text-align: center;
+  margin: 15px auto;
+}
+.cardContainer {
+  display: flex;
+  margin: 0px auto;
+}
+.card {
+  width: 32%;
+  background-color: aqua;
+  padding: 10px 15px;
+  margin: 1%;
+  border-radius: 10px;
+}
+.cardimage {
+  width: 45%;
+}
+.cardHeading {
+  margin-bottom: 20px;
+}
+.cardText {
+  padding: 0px 5px 10px 5px;
+}
+.card-1 {
+  background-color: rgba(152, 251, 152, 0.623);
+}
+.card-2 {
+  background-color: rgba(218, 112, 214, 0.466);
+}
+.card-3 {
+  background-color: rgba(255, 68, 0, 0.308);
+}
+.developSkils {
+  display: flex;
+}
+.dvelopImage {
+  width: 30%;
+}
+.dvelopImage .imageCotainer {
+  margin: auto;
+}
+.dvelopText {
+  width: 70%;
+  margin: auto;
+  padding: 2px 30px;
+}
+
+.inspireMe h1 {
+  text-align: center;
+}
+.inspireMe form {
+  margin: 0px auto;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+}
+.inspireMe label {
+  display: block;
+  padding: 10px;
+}
+.inspireMe input {
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  margin-right: 0px;
+}
+.inspireMe textarea {
+  width: 100%;
+}
+.inspireMe input[type="submit"] {
+  border: none;
+  padding: 10px 20px;
+}
+
+/* footer */
+
+.footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 30px;
+  text-align: center;
+  margin: 0px;
+}
+.footerHeading {
+  text-align: center;
+}
